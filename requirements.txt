@@ -1,0 +1,7 @@
+pandas
+numpy
+matplotlib
+mlflow
+kfp==2.6.0
+boto3
+psycopg2-binary==2.9.9
