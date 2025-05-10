@@ -50,8 +50,8 @@ CREATE TABLE promotions (
     end_date DATE,
     target_segment TEXT,
     city_scope TEXT,
-    ab_test_groups TEXT,  -- or JSON/ARRAY if supported
-    test_allocation TEXT, -- or JSON/ARRAY if supported
+    ab_test_groups TEXT,  
+    test_allocation TEXT,
     success_metric TEXT
 );
 -- TABLE 5 - SESSIONS TABLE
