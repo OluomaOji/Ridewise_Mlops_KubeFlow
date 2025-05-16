@@ -1,7 +1,9 @@
 pandas
 numpy
 matplotlib
-mlflow
-kfp==2.6.0
+seaborn
+plotly_express==0.4
+ydata-profiling
+folium
 boto3
-psycopg2-binary==2.9.9
+#duckdb

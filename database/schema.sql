@@ -65,3 +65,4 @@ CREATE TABLE sessions (
     city TEXT,
     loyalty_status TEXT
 );
+

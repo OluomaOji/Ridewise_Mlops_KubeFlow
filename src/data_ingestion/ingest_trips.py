@@ -5,7 +5,7 @@ bucket = "ridewisemlopskubeflow"
 key = "raw/trips.csv"
 
 create_sql = """
-CREATE TABLE IF NOT EXISTS sessions (
+CREATE TABLE IF NOT EXISTS trips (
     trip_id VARCHAR(64) PRIMARY KEY,
     user_id VARCHAR(64) REFERENCES riders(user_id),
     driver_id VARCHAR(64) REFERENCES drivers(driver_id),
@@ -30,5 +30,5 @@ if __name__ == "__main__":
     create_table(conn, create_sql)
 
     df = read_csv_from_s3(bucket, key)
-    df.to_sql("sessions", conn, if_exists="replace", index=False)
+    df.to_sql("trips", conn, if_exists="replace", index=False)
     print("Trips data ingested.")
