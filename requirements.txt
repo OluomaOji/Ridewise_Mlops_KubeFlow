@@ -6,4 +6,9 @@ plotly_express==0.4
 ydata-profiling
 folium
 boto3
-#duckdb
+scikit-learn
+imblearn
+#mlflow
+shap
+fastapi
+uvicorn

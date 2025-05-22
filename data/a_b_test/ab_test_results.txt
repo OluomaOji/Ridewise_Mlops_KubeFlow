@@ -1,0 +1,11 @@
+Chi-squared Test:
+Chi2 Statistic: 0.9194, p-value: 0.6315, Degrees of Freedom: 2
+
+Z-test Control vs Variant A:
+Z-statistic: -0.8576, p-value: 0.3911
+
+Z-test Control vs Variant B:
+Z-statistic: -0.8229, p-value: 0.4105
+
+Recommendation:
+Variant B showed a lift of 0.59% over Control. Consider rollout if statistically significant.

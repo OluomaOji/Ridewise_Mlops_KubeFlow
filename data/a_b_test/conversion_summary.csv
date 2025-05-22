@@ -1,0 +1,4 @@
+ab_group,conversion_rate,sample_size
+Control,0.15411558669001751,5139
+Variant A,0.15988286969253293,6830
+Variant B,0.1600640256102441,4998
